@@ -59,12 +59,19 @@ function Home() {
             <h2 className="text-2xl md:text-3xl font-semibold mt-1">Overview</h2>
           </Reveal>
 
-          <p className="mt-4 text-slate-300 max-w-none">
-            Software Development Engineer at Amazon Web Services with 3+ years of experience, transitioning into Data Scientist or AI/ML Engineer
-            roles. I tailor and implement data-driven solutions to help
-            breakthrough domains. My passion for maths backing ML/AI helps me
-            design solutions that are just right.
+          <p className="mt-4 text-slate-300 md:text-lg leading-relaxed max-w-none">
+            For seven years I’ve worked at the seam of data engineering and applied ML. At AWS, I operate and improve large-scale
+            content ingestion that turns messy enterprise data into searchable, ML-ready signals for products like Amazon Kendra and QBusiness.
           </p>
+          <p className="mt-3 text-slate-300 md:text-lg leading-relaxed">
+            This production exposure paired with an M.S. in Applied Machine Intelligence drives my transition into Data Scientist /
+            ML Engineer roles, where I bring software rigor to models that not only perform but deploy and move business metrics.
+          </p>
+          <p className="mt-3 text-slate-300 md:text-lg leading-relaxed">
+            This portfolio highlights projects that show that path: retrieval and re-ranking, risk modeling, and LLM apps with
+            attention to latency, reliability, and evaluation.
+          </p>
+
 
           <a
             href={RESUME_URL}
